@@ -18,8 +18,8 @@ import pandas as pd
 import plotly.express as px
 
 
-data = pd.read_csv(r"C:\Users\justi\OneDrive\Documents\Data Analysis Projects\raw_covid19_data.csv", parse_dates=["date"])
-data2 = pd.read_csv(r"C:\Users\justi\OneDrive\Documents\Data Analysis Projects\transformed_covid19_data.csv", parse_dates=["DATE"])
+data = pd.read_csv(r"C:\Users\justi\PycharmProjects\pythonProject4\resources\raw_covid19_data.csv", parse_dates=["date"])
+data2 = pd.read_csv(r"C:\Users\justi\PycharmProjects\pythonProject4\resources\transformed_covid19_data.csv", parse_dates=["DATE"])
 print(data)
 
 
